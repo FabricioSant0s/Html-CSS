@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    
+    <h1>Usando links externo</h1>
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/">repositório público no GitHub.</a>
+    </p>
+    Você também pode acessar o meu <a href="https://www.youtube.com/@CursoemVideo" target="_blank" rel="external">canal gratuito no YouTube.</a>
+    <!--target="_blank" hel="external" estes comando abre uma nova guia, pois sem esses comandos a 
+    pagina é substituida pelo link.-->  
+    
+    
+    <h1>Usando links internos</h1>
+    <p>A segunda página está aqui. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next">segunda página</a></p>
+    <p>Ir para <a href="./noticias/pag003.html" rel="next">terceira página</a></p>
+    <!--Você precisa colocar pontos para avançar ou voltar em outras páginas que estão em pastas diferentes.-->
+    
+    
+    <h1>Links para download</h1>
+    <ul type="square">
+        <li><a href="livro/suplicio.pdf" target="_blank" download="suplicio" type="application/pdf">Arquivo em PDF</a></li>
+        <li><a href="livro/LivroZip.7z" download="LivroZip.7z" type=application/ZIP>Arquivo compaquitado em ZIP</a></li>
+    </ul>
+</body>
+</html>

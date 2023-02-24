@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: rgb(2, 66, 66);
+    font-size: arial, helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+h1{
+    color: rgb(26, 166, 190);
+}
+h2{
+    font-size: Times;
+    background-color: aquamarine;
+}
+p{
+    color: aliceblue;
+}
+h3{
+    color:rgb(53, 102, 61)
+}

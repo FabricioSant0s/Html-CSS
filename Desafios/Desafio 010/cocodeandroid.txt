@@ -1,0 +1,119 @@
+body{
+    margin:0;
+    padding: 0px;;
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    background-image: linear-gradient( #84E1AD,#299056, #1C633B,#195A36);
+    margin: 0;
+    padding-bottom: 5px;
+}
+h1{
+   text-align: center;
+   color: white;
+   font-family: arial;
+   font-weight: 100;
+   padding-top: 40px;
+   text-shadow: black 2px 2px 2px;
+}
+header > a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    margin: 6px;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 0px 8px 0px 0px;
+}
+header > a:hover{
+    background-color: #96a59c;
+}
+header > p{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: black 1px 1px 1px;
+    padding-bottom: 25px;
+    padding-top: 10;
+}
+main > p{
+    text-align: justify;
+}
+body > main{
+    margin: auto;
+    height:auto;
+    width: 800px;
+    background-color: white;
+    position: center;
+    background-attachment: fixed;
+    padding: 15px;
+}
+main > h2, h3{
+    text-align: justify;
+    font-family: 'droid';
+    color:#195A36;
+    background-image: -moz-radial-gradient(green,lightgreen);
+    
+}
+
+main > div{
+        text-align: center;
+}
+h2, p, h3{
+    margin: 0;
+    padding-left: 200;
+    padding-right: 200;
+}
+
+body > aside {
+    text-align: justify;
+    background-color: rgb(5, 104, 5);
+    background-attachment: fixed;
+    margin: auto;
+    padding: 15px;
+    position: center;
+    background-attachment: fixed;
+    width: 800px;
+}
+main > section {
+    height: auto;
+    position: center;
+    background-color: rgb(11, 56, 11);
+    background-attachment: fixed;
+    margin: auto;
+    padding: 15px 30px 15px 50px;
+}
+aside > section {
+    text-align: justify;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    position: center;
+    background-attachment: fixed;
+    width: 700px;
+}
+
+aside > section >h3 {
+    background-color: #169750;
+    color: white;
+    font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
+    padding: 20x 20x 20x 20x;
+    margin: auto;
+}
+aside > section > div{
+    text-align: center;
+}
+aside > section{
+    border-radius: 10px;
+    border-color: #169750;
+
+}
+
+body > footer > div{
+    text-align: center;
+    text-align: justify;
+    padding: 20px 20px 20px 20px;
+}
