@@ -1,0 +1,26 @@
+body {
+    font-size: medium;
+    height: 800px;
+    width: 800px;
+    margin: 0px 0px 0px 50px;
+}
+
+h1{
+    color: rgb(207, 64, 64);
+}
+div > img.primeirotreino{
+    
+}
+
+h2{
+    color: brown;
+}
+
+h3{
+    color:rgb(196, 54, 73);
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
